@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>WesHack, Wesleyan's only Hackathon!</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Line awesome for the arrow icon. Will probably replace this with an actual image -->
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&family=Ubuntu:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- OPEN GRAPH / FACEBOOK -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://Happytrails/space/" />
+    <meta property="og:title" content="Happy Trails" />
+    <meta property="og:description" content="Make Walking Fun!" />
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/dknopf/imageupload/main/happyTrailsLogo.jpg"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav
+      id="nav"
+      class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top"
+    >
+      <div class="container mx-3">
+        <a class="navbar-brand" href="#">
+          <img
+            src="assets/img/cardinal.png"
+            style="width: 40px"
+            alt="WesHack logo"
+          />
+        </a>
+        <!-- <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <!-- <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">OptMeowt</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#install">Download</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#research">Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-us">About Us</a>
+            </li>
+          </ul>
+        </div> -->
+      </div>
+    </nav>
+    <header id="hero">
+      <div class="row mx-3 align-items-center">
+        <div class="col-md-6 col-12 py-3">
+          <h5>April 23-25, 2021</h5>
+          <p class="textLogo">Wes<span class="gradientText">Hack</span></p>
+          <p>
+            CodeWes presents Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <button class="btn-1">
+            Register<span class="icon la la-arrow-right pl-2"></span>
+          </button>
+        </div>
+        <div class="col-md-6 col-12 text-md-right py-3">
+          <div class="image-container">
+            <img class="img-fluid bg-blob" src="assets/img/blobs.png" />
+            <div class="col-2 countdown-blob" id="countdown-blob-1">
+              <div class="row">
+                <div class="col-12 text-center">
+                  <img
+                    class="countdown-blob-img"
+                    src="assets/img/Ellipse1.png"
+                  />
+
+                  <h2 class="countdown-timer" id="days">42</h2>
+                  <p class="countdown-text" id="countdown-text-days">days</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-2 countdown-blob" id="countdown-blob-2">
+              <img class="countdown-blob-img" src="assets/img/Ellipse2.png" />
+              <h2 class="countdown-timer" id="minutes">42</h2>
+              <p class="countdown-text" id="countdown-text-days">minutes</p>
+            </div>
+            <div class="col-2 countdown-blob" id="countdown-blob-3">
+              <img class="countdown-blob-img" src="assets/img/Ellipse3.png" />
+              <h2 class="countdown-timer" id="seconds">42</h2>
+              <p class="countdown-text" id="countdown-text-days">seconds</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="contact">
+      <div class="row py-4 mx-3">
+        <div class="col-12">
+          <div class="custom-card py-4" id="contact us">
+            <div class="container">
+              <div class="row justify-content-center text-center pt-5">
+                <div class="col-6">
+                  <h2>Contact us</h2>
+                </div>
+              </div>
+              <div class="row justify-content-center text-center py-1">
+                <div class="col-6">
+                  <p class="contact-text">Still have questions?</p>
+                </div>
+              </div>
+              <div class="row justify-content-center text-center py-1">
+                <div class="col-1 px-4">
+                  <a href="">
+                    <img src="assets/img/instagram.svg" alt="instagram icon" />
+                  </a>
+                </div>
+                <div class="social-icon col-1 pl-4 pr-4">
+                  <a href="">
+                    <img src="assets/img/mail.svg" alt="email icon" />
+                  </a>
+                </div>
+                <div class="social-icon col-1 px-4">
+                  <a href="">
+                    <img src="assets/img/github.svg" alt="github icon" />
+                  </a>
+                </div>
+                <div class="social-icon col-1 px-3">
+                  <a href="">
+                    <img src="assets/img/twitter.svg" alt="twitter icon" />
+                  </a>
+                </div>
+                <div class="social-icon col-1 pl-4 px-3">
+                  <a href="">
+                    <img src="assets/img/facebook.svg" alt="facebook icon" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="assets/js/main.js"></script>
+    <!-- BOOTSTRAP -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

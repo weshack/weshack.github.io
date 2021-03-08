@@ -1,0 +1,132 @@
+body {
+  background: #f4f5f8;
+  font-family: "Nunito", sans-serif;
+}
+
+header {
+  padding-top: calc(5rem + 55px);
+  color: #393a3d;
+}
+
+h2 {
+  font-weight: 800;
+}
+
+.textLogo {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 1;
+}
+
+@media (max-width: 576px) {
+  .textLogo {
+    font-size: 4rem;
+  }
+}
+
+.gradientText {
+  background: linear-gradient(180deg, #eb7290 0%, #f7c7a5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* COUNTDOWN BLOB */
+
+.countdown-blob {
+  z-index: 1;
+  position: absolute;
+  bottom: 40%;
+}
+#countdown-blob-1 {
+  left: 15%;
+}
+#countdown-blob-2 {
+  left: 40%;
+}
+#countdown-blob-3 {
+  left: 65%;
+}
+.countdown-blob-img {
+  width: 8vw;
+  filter: drop-shadow(0 1 0.1rem black);
+  /* drop-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.countdown-text {
+  position: absolute;
+  bottom: 30%;
+  margin-bottom: 0;
+  left: 45%;
+  font-size: 1vw;
+}
+
+.countdown-timer {
+  position: absolute;
+  bottom: 45%;
+  margin-bottom: 0;
+  left: 45%;
+  font-size: 3vw;
+}
+
+@media (max-width: 768px) {
+  .countdown-blob-img {
+    width: 16vw;
+  }
+  .countdown-text {
+    font-size: 3vw;
+  }
+  .countdown-timer {
+    font-size: 5vw;
+  }
+}
+
+.image-container {
+  position: relative;
+}
+
+.bg-blob {
+  z-index: 0;
+  width: 100%;
+  position: relative;
+}
+
+/* Register button */
+
+.btn-1 {
+  border-radius: 32px;
+  background: #eb7290;
+  border: none;
+  color: white;
+  width: 8rem;
+  height: 2rem;
+}
+
+button:focus {
+  outline: 0;
+}
+
+a:focus {
+  outline: 0;
+}
+
+.icon {
+  width: 2rem;
+  /* height: 2rem; */
+}
+
+/* CONTACT SECTION */
+.custom-card {
+  background: white;
+  border-radius: 32px;
+  height: 100%;
+  width: 100%;
+}
+
+.contact-text {
+  font-size: 0.9rem;
+}
+
+.social-icon {
+  height: 1px;
+}
