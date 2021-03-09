@@ -48,29 +48,38 @@ h2 {
   left: 65%;
 }
 .countdown-blob-img {
-  width: 8vw;
+  width: 100%;
   filter: drop-shadow(0 1 0.1rem black);
   /* drop-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .countdown-text {
   position: absolute;
-  bottom: 30%;
+  top: 70%;
   margin-bottom: 0;
-  left: 45%;
+  left: 50%;
   font-size: 1vw;
+  transform: translate(-50%, -30%);
 }
 
 .countdown-timer {
   position: absolute;
-  bottom: 45%;
+  top: 45%;
   margin-bottom: 0;
-  left: 45%;
+  left: 50%;
+  text-align: center;
   font-size: 3vw;
+  transform: translate(-50%, -45%);
+}
+
+.blob-container {
+  width: 8vw;
+  position: relative;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
-  .countdown-blob-img {
+  .blob-container {
     width: 16vw;
   }
   .countdown-text {
