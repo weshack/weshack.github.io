@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  padding-top: calc(5rem + 55px);
+  padding-top: calc(1rem + 35px);
   color: #393a3d;
 }
 
@@ -55,7 +55,7 @@ h2 {
 }
 .countdown-blob-img {
   width: 100%;
-  filter: drop-shadow(0 1 0.1rem black);
+  filter: drop-shadow(0 0.2rem 0.1rem grey);
   /* drop-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
