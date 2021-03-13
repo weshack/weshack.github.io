@@ -80,7 +80,7 @@ h2 {
   transform: translate(-50%, -45%);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .blob-container {
     width: 18vw;
     padding: 0;
