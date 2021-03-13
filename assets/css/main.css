@@ -140,7 +140,7 @@ a:focus {
   font-size: 0.9rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .social-icon {
     height: 6vw;
   }
