@@ -1,4 +1,4 @@
-var finalDate = new Date("April 13, 2021, 17:30:00").getTime();
+var finalDate = new Date("April 23, 2021, 17:30:00").getTime();
 
 var x = setInterval(function () {
   var now = new Date().getTime();
