@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   background: #f4f5f8;
   font-family: "Nunito", sans-serif;
@@ -29,6 +32,11 @@ h2 {
   background: linear-gradient(180deg, #eb7290 0%, #f7c7a5 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+/* NAVBAR */
+
+.nav-item {
+  color: #393a3d;
 }
 
 /* COUNTDOWN BLOB */
