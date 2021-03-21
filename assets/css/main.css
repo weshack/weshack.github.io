@@ -128,6 +128,28 @@ a:focus {
   /* height: 2rem; */
 }
 
+/* FAQ SECTION */
+
+.faq-dot {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.red-dot {
+  background-color: #ec4870;
+}
+
+.purple-dot {
+  background-color: #bd60f6;
+}
+.orange-dot {
+  background-color: #fc9f5c;
+}
+
+.faq-question {
+  font-weight: 700;
+}
+
 /* CONTACT SECTION */
 .custom-card {
   background: white;
