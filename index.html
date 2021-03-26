@@ -70,24 +70,25 @@
     />
     <meta
       name="twitter:image"
-      content="https://raw.githubusercontent.com/dknopf/imageupload/main/cardinal-1200-background.png"
+      content="https://raw.githubusercontent.com/dknopf/imageupload/main/twitter_card_logo.png"
     />
   </head>
   <body>
     <!-- IF YOU'RE SEEING THIS, YOU'RE A NERD -->
+    <!-- Website created by Daniel Knopf :) -->
 
     <!-- Navigation -->
-    <!-- <nav id="nav" class="navbar navbar-expand-lg navbar-custom fixed-top mx-3"> -->
-    <nav id="nav" class="navbar navbar-expand-lg navbar-dark navbar-custom">
-      <a class="navbar-brand" href="#">
+    <nav id="nav" class="navbar navbar-expand-lg navbar-custom fixed-top">
+      <a class="navbar-brand ml-3" href="#">
         <img
-          src="assets/img/cardinal-250.png"
-          style="width: 40px"
+          src="assets/img/logo_filled.png"
+          style="width: 60px"
           alt="WesHack logo"
         />
       </a>
-      <!-- <button
-        class="navbar-toggler"
+      <button
+        class="navbar-toggler mr-3 navbar-light"
+        id="hamburger"
         type="button"
         data-toggle="collapse"
         data-target="#navbarResponsive"
@@ -96,29 +97,32 @@
         aria-label="Toggle navigation"
       >
         <span class="navbar-toggler-icon"></span>
-      </button> -->
-      <!-- <div class="collapse navbar-collapse" id="navbarResponsive">
+      </button>
+      <div class="collapse navbar-collapse ml-3 mr-3" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <!-- <li class="nav-item px-2">
             <a class="nav-link" href="#about">About</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item px-2">
             <a class="nav-link" href="#schedule">Schedule</a>
-          </li>
-          <li class="nav-item">
+          </li> -->
+          <li class="nav-item px-2">
             <a class="nav-link" href="#faq">FAQ</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item px-2">
             <a class="nav-link" href="#team">Team</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item px-2">
             <a class="nav-link" href="#sponsors">Sponsors</a>
-          </li>
-          <li class="nav-item">
+          </li> -->
+          <li class="nav-item px-2">
             <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
-      </div> -->
+      </div>
     </nav>
     <header id="hero">
       <div class="row mx-3 align-items-center">
@@ -175,6 +179,20 @@
         </div>
       </div>
     </header>
+    <!-- <section id="about-schedule">
+      <div class="row py-4 mx-3 px-3">
+        <div class="col-md-6 custom-card col-12" id="about">
+          <div class="row mx-3">
+            <div class="col-12">
+              <h2>About</h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-12 custom-card" id="schedule">
+          <p>I fucking hate frontend development</p>
+        </div>
+      </div>
+    </section> -->
     <section id="faq">
       <div class="row py-4 mx-3">
         <div class="col-12">
@@ -320,6 +338,120 @@
         </div>
       </div>
     </section>
+    <!-- TEAM -->
+    <section id="team">
+      <div class="row py-4 mx-5">
+        <div class="col-12">
+          <h2>Our Team</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center mx-3">
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="team-card">
+            <img class="team-img" src="assets/img/team/kiryl.jpeg" />
+            <div class="shape-container pb-5">
+              <img
+                class="team-img-shape short-shape"
+                src="assets/img/orange_shape_left.png"
+              />
+              <p class="team-text name">KIRYL BELIAUSKI</p>
+              <p class="team-text bio">
+                I am a sophomore majoring in CS and Math, and I believe that
+                WesHack will give students an opportunity to make connections
+                with people they would not meet otherwise. I’ve recently been
+                playing a lot of spike ball and Doom Eternal.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="team-card">
+            <img class="team-img" src="assets/img/team/rome.jpg" />
+            <div class="shape-container pb-5">
+              <img
+                class="team-img-shape short-shape"
+                src="assets/img/red_shape.png"
+              />
+              <p class="team-text name">ROME DUONG</p>
+              <p class="team-text bio">
+                My interest in coding began when I first completed “Programming
+                with Karel the Dog” on CodeHS. Outside the world of coding, I am
+                very passionate about cycling and playing NFS Most Wanted
+                (2005).
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="team-card">
+            <img class="team-img" src="assets/img/team/danielG.jpg" />
+            <div class="shape-container pb-5">
+              <img
+                class="team-img-shape short-shape"
+                src="assets/img/purple_shape.png"
+              />
+              <p class="team-text name">DANIEL GOLDELMAN</p>
+              <p class="team-text bio">
+                I’m a sophomore majoring in CS, and when I’m not working on
+                projects I’m probably playing *insert instrument here*. I’m
+                super excited to bring WesHack to the growing coding community
+                on campus.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="team-card">
+            <img class="team-img" src="assets/img/team/danielK.jpg" />
+            <div class="shape-container">
+              <img
+                class="team-img-shape"
+                src="assets/img/orange_shape_right.png"
+              />
+              <p class="team-text name">DANIEL KNOPF</p>
+              <p class="team-text bio">
+                I’m a junior double majoring in CS and English, and I’m wildly
+                excited to add another CS sticker to my sticker collection. Oh
+                and to host WesHack, I guess...
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="team-card">
+            <img class="team-img" src="assets/img/team/ashley.jpg" />
+            <div class="shape-container pb-5">
+              <img
+                class="team-img-shape"
+                src="assets/img/orange_shape_right.png"
+              />
+              <p class="team-text name">ASHLEY TUEN</p>
+              <p class="team-text bio">
+                I’m a sophomore pursuing a major in Economics and Government.
+                I’m illiterate when it comes to the coding language, but I am
+                here to draw cute birds, so that doesn’t matter does it?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="team-card">
+            <img class="team-img" src="assets/img/team/RicardoZamora.JPG" />
+            <div class="shape-container pb-5">
+              <img class="team-img-shape" src="assets/img/purple_shape.png" />
+              <p class="team-text name">RICARDO ZAMORA</p>
+              <p class="team-text bio">
+                I’m a sophomore majoring in CS and Math, and I enjoy connecting
+                with students who share similar passions as myself. I joined
+                Code_Wes and WesHack to strengthen the cs community at Wesleyan.
+                Aside from academics, I love anime and hopping on Warzone!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section id="contact">
       <div class="row py-4 mx-3">
         <div class="col-12">
@@ -410,5 +542,6 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>

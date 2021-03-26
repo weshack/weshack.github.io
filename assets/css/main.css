@@ -35,8 +35,48 @@ h2 {
 }
 /* NAVBAR */
 
-.nav-item {
+.nav-link {
   color: #393a3d;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  color: #eb7290;
+}
+
+@media (min-width: 992px) {
+  .nav-link:hover {
+    color: #393a3d;
+    border-bottom: 2px solid currentColor;
+    padding-bottom: 0;
+  }
+}
+
+.navbar-toggler {
+  /* background-color: #393a3d; */
+}
+
+.navbar {
+  -webkit-transition: background-color 200ms linear;
+  -moz-transition: background-color 200ms linear;
+  -ms-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+}
+
+.scrolled {
+  background-color: white;
+  -webkit-transition: background-color 200ms linear;
+  -moz-transition: background-color 200ms linear;
+  -ms-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+}
+
+.expanded {
+  background-color: white;
+  -webkit-transition: background-color 200ms linear;
+  -moz-transition: background-color 200ms linear;
+  -ms-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
 }
 
 /* COUNTDOWN BLOB */
@@ -156,6 +196,85 @@ a:focus {
 
 .faq-question {
   font-weight: 700;
+}
+
+/* TEAM SECTION */
+
+#team {
+  /* padding-bottom: 10rem; */
+}
+
+.team-card {
+  border-radius: 32px;
+  width: 100%;
+  height: 40rem;
+  padding-bottom: 12rem;
+  max-width: 30rem;
+}
+
+.team-img {
+  z-index: 0;
+  position: relative;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 32px;
+  width: 100%;
+  height: 100%;
+}
+
+.team-img-shape {
+  z-index: 1;
+  position: absolute;
+  /* bottom: 50%; */
+  width: 100%;
+  height: 90%;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  bottom: 20%;
+}
+
+.short-shape {
+  height: 80%;
+}
+
+.shape-container {
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  height: 70%;
+  bottom: 30%;
+}
+
+.team-text {
+  z-index: 2;
+  position: absolute;
+  top: 20%;
+  margin-bottom: 0;
+  left: 10%;
+  font-size: 0.95vw;
+  /* transform: translate(-50%, -45%); */
+  padding-top: 0.3rem;
+  color: white;
+  font-weight: 700;
+  padding-right: 10%;
+}
+
+@media (max-width: 991.98px) {
+  .team-text {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .team-img {
+    left: 20%;
+  }
+  .shape-container {
+    left: 20%;
+  }
+}
+
+.bio {
+  top: 30%;
 }
 
 /* CONTACT SECTION */
