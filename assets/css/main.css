@@ -251,7 +251,7 @@ a:focus {
   top: 20%;
   margin-bottom: 0;
   left: 10%;
-  font-size: 0.95vw;
+  font-size: 0.8rem;
   /* transform: translate(-50%, -45%); */
   padding-top: 0.3rem;
   color: white;
@@ -260,9 +260,9 @@ a:focus {
 }
 
 @media (max-width: 991.98px) {
-  .team-text {
+  /* .team-text {
     font-size: 1rem;
-  }
+  } */
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .team-img {
