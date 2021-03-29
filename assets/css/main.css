@@ -11,7 +11,8 @@ header {
   color: #393a3d;
 }
 
-h2 {
+h2,
+h3 {
   font-weight: 800;
 }
 
@@ -275,6 +276,24 @@ a:focus {
 
 .bio {
   top: 30%;
+}
+
+/* SPONSORS */
+
+.sponsor-card {
+  border: 30px solid transparent;
+  padding: 15px;
+  border-image: url("../img/sponsor_border.png") 60 stretch;
+}
+
+.text-link {
+  color: #393a3d;
+  font-weight: 700;
+}
+
+.text-link:hover {
+  color: #393a3d;
+  font-weight: 700;
 }
 
 /* CONTACT SECTION */
