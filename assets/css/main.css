@@ -80,7 +80,11 @@ h3 {
   transition: background-color 200ms linear;
 }
 
-/* COUNTDOWN BLOB */
+/* HERO*/
+
+#hero {
+  padding-top: 6rem;
+}
 
 .countdown-blob {
   z-index: 1;
