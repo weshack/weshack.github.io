@@ -181,6 +181,45 @@ a:focus {
   /* height: 2rem; */
 }
 
+/* ABOUT/SCHEDULE */
+
+.about-card {
+  border-radius: 32px;
+  height: 100%;
+  width: 100%;
+  background: #bd60f6;
+  color: white;
+  position: relative;
+}
+
+.blob-container-container {
+  padding-top: 15rem;
+}
+
+.about-blob-container {
+  /* padding-top: 10rem; */
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  width: 80%;
+  height: 25vw;
+  min-height: 90%;
+  /* width: 47vw;
+  height: 25vw; */
+}
+
+@media (max-width: 575.98px) {
+  .about-blob-container {
+    min-height: 60%;
+  }
+}
+
+.about-blob {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
 /* FAQ SECTION */
 
 .faq-dot {
