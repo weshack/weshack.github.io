@@ -36,6 +36,14 @@ h3 {
   -webkit-text-fill-color: transparent;
 }
 
+.custom-card {
+
+  background: white;
+  border-radius: 32px;
+  height: 100%;
+  width: 100%;
+}
+
 /* NAVBAR */
 
 .nav-link {
@@ -228,6 +236,23 @@ a:focus {
   height: 100%;
 }
 
+.schedule-card {
+  background-image: linear-gradient(top, #EC4870, #EC4870 7rem, transparent 7rem, transparent 100%);
+  background-image: -webkit-linear-gradient(top, #EC4870, #EC4870 7rem, transparent 7rem, transparent 100%);
+}
+
+.schedule-header {
+  color: white;
+}
+
+.unfilled-dot {
+  -moz-border-radius: 1.5rem/1.5rem;
+  -webkit-border-radius: 1.5rem 1.5rem;
+  border-radius: 1.5rem/1.5rem;
+  border: solid 5px #EC4870;
+}
+
+
 /* FAQ SECTION */
 
 .faq-dot {
@@ -353,11 +378,11 @@ a:focus {
 }
 
 /* CONTACT SECTION */
-.custom-card {
-  background: white;
-  border-radius: 32px;
-  height: 100%;
-  width: 100%;
+
+
+.contact-card {
+  background-image: linear-gradient(white, #F4F5F8);
+  background-image: -webkit-linear-gradient(white, #F4F5F8);
 }
 
 .contact-text {
