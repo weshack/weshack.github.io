@@ -1,6 +1,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 body {
   background: #f4f5f8;
   font-family: "Nunito", sans-serif;
@@ -34,6 +35,7 @@ h3 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 /* NAVBAR */
 
 .nav-link {
@@ -91,12 +93,15 @@ h3 {
   position: absolute;
   bottom: 40%;
 }
+
 #countdown-blob-1 {
   left: 10%;
 }
+
 #countdown-blob-2 {
   left: 40%;
 }
+
 #countdown-blob-3 {
   left: 70%;
 }
@@ -106,6 +111,7 @@ h3 {
   position: relative;
   text-align: center;
 }
+
 .countdown-blob-img {
   width: 100%;
   filter: drop-shadow(0 0.2rem 0.1rem grey);
@@ -138,10 +144,12 @@ h3 {
     width: 18vw;
     padding: 0;
   }
+
   .countdown-text {
     font-size: 2.2vw;
     padding-top: 0.1rem;
   }
+
   .countdown-timer {
     font-size: 8vw;
   }
@@ -234,6 +242,7 @@ a:focus {
 .purple-dot {
   background-color: #bd60f6;
 }
+
 .orange-dot {
   background-color: #fc9f5c;
 }
@@ -308,10 +317,12 @@ a:focus {
     font-size: 1rem;
   } */
 }
+
 @media (min-width: 576px) and (max-width: 767.98px) {
   .team-img {
     left: 20%;
   }
+
   .shape-container {
     left: 20%;
   }
@@ -324,7 +335,9 @@ a:focus {
 /* SPONSORS */
 
 .sponsor-card {
-  border: 30px solid transparent;
+  border-style: solid;
+  border-width: 30px;
+  /* border: 30px solid transparent; */
   padding: 15px;
   border-image: url("../img/sponsor_border.png") 60 stretch;
 }
