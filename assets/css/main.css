@@ -37,7 +37,6 @@ h3 {
 }
 
 .custom-card {
-
   background: white;
   border-radius: 32px;
   height: 100%;
@@ -237,8 +236,20 @@ a:focus {
 }
 
 .schedule-card {
-  background-image: linear-gradient(top, #EC4870, #EC4870 7rem, transparent 7rem, transparent 100%);
-  background-image: -webkit-linear-gradient(top, #EC4870, #EC4870 7rem, transparent 7rem, transparent 100%);
+  background-image: linear-gradient(
+    top,
+    #ec4870,
+    #ec4870 7rem,
+    transparent 7rem,
+    transparent 100%
+  );
+  background-image: -webkit-linear-gradient(
+    top,
+    #ec4870,
+    #ec4870 7rem,
+    transparent 7rem,
+    transparent 100%
+  );
 }
 
 .schedule-header {
@@ -249,9 +260,8 @@ a:focus {
   -moz-border-radius: 1.5rem/1.5rem;
   -webkit-border-radius: 1.5rem 1.5rem;
   border-radius: 1.5rem/1.5rem;
-  border: solid 5px #EC4870;
+  border: solid 5px #ec4870;
 }
-
 
 /* FAQ SECTION */
 
@@ -377,12 +387,24 @@ a:focus {
   font-weight: 700;
 }
 
+.sponsor-logo {
+  width: 100%;
+  max-width: 15rem;
+}
+
+@media (max-width: 575px) {
+  .sponsor-logo {
+    min-width: 5rem;
+
+    max-width: 10rem;
+  }
+}
+
 /* CONTACT SECTION */
 
-
 .contact-card {
-  background-image: linear-gradient(white, #F4F5F8);
-  background-image: -webkit-linear-gradient(white, #F4F5F8);
+  background-image: linear-gradient(white, #f4f5f8);
+  background-image: -webkit-linear-gradient(white, #f4f5f8);
 }
 
 .contact-text {
