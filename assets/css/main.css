@@ -292,6 +292,23 @@ a:focus {
   background-image: url(../img/prizes_background.png);
 }
 
+.individual-prize-card {
+  background: white;
+  border: 1px solid #efd895;
+  border-radius: 16px;
+  min-width: 12rem;
+}
+
+.individual-prize-card h2 {
+  /* font-size: 2vw; */
+  color: #7d7158;
+}
+
+.individual-prize-card img {
+  min-width: 7rem;
+  max-height: 10rem;
+}
+
 /* TEAM SECTION */
 
 #team {
