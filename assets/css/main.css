@@ -216,17 +216,9 @@ a:focus {
   position: absolute;
   bottom: 0%;
   right: 0%;
-  width: 80%;
-  height: 25vw;
-  min-height: 90%;
-  /* width: 47vw;
-  height: 25vw; */
-}
 
-@media (max-width: 575.98px) {
-  .about-blob-container {
-    min-height: 60%;
-  }
+  height: 35vw;
+  width: 55vw;
 }
 
 .about-blob {
@@ -400,11 +392,15 @@ a:focus {
   max-width: 15rem;
 }
 
+.silver img {
+  max-width: 8rem;
+}
+
 @media (max-width: 575px) {
   .sponsor-logo {
     min-width: 5rem;
 
-    max-width: 10rem;
+    /* max-width: 10rem; */
   }
 }
 
