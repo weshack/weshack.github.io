@@ -286,6 +286,12 @@ a:focus {
   font-weight: 700;
 }
 
+/* PRIZES SECTION */
+
+.prizes-card {
+  background-image: url(../img/prizes_background.png);
+}
+
 /* TEAM SECTION */
 
 #team {
@@ -369,12 +375,12 @@ a:focus {
 
 /* SPONSORS */
 
-.sponsor-card {
+.partner-card {
   border-style: solid;
   border-width: 30px;
   /* border: 30px solid transparent; */
   padding: 15px;
-  border-image: url("../img/sponsor_border.png") 60 stretch;
+  border-image: url("../img/partner_border.png") 60 stretch;
 }
 
 .text-link {
