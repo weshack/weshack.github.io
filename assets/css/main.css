@@ -390,7 +390,7 @@ a:focus {
 .partner-logo {
   width: 100%;
   max-width: 20rem;
-  min-width: 15rem;
+  min-width: 10rem;
 }
 
 .partner-logo:hover {
