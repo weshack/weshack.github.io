@@ -392,6 +392,10 @@ a:focus {
   max-width: 15rem;
 }
 
+.sponsor-logo:hover {
+  transform: scale(1.2);
+}
+
 .silver img {
   max-width: 8rem;
 }
