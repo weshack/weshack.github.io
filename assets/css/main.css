@@ -390,6 +390,7 @@ a:focus {
 .sponsor-logo {
   width: 100%;
   max-width: 15rem;
+  min-width: 10rem;
 }
 
 .sponsor-logo:hover {
@@ -397,13 +398,12 @@ a:focus {
 }
 
 .silver img {
-  max-width: 8rem;
+  min-width: 5rem;
+  max-width: 7rem;
 }
 
 @media (max-width: 575px) {
   .sponsor-logo {
-    min-width: 5rem;
-
     /* max-width: 10rem; */
   }
 }
