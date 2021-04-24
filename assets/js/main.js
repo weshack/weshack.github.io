@@ -12,9 +12,12 @@ var x = setInterval(function () {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  document.getElementById("hours").innerHTML = hours;
-  document.getElementById("minutes").innerHTML = minutes;
-  document.getElementById("seconds").innerHTML = seconds;
+  // document.getElementById("hours").innerHTML = hours;
+  // document.getElementById("minutes").innerHTML = minutes;
+  // document.getElementById("seconds").innerHTML = seconds;
+  document.getElementById("hours").innerHTML = 0;
+  document.getElementById("minutes").innerHTML = 0;
+  document.getElementById("seconds").innerHTML = 0;
 });
 
 $(document).ready(function () {
